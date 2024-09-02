@@ -1,19 +1,10 @@
-class Tutorial {
-  private title: string;
-  private content: string;
-
-  constructor(title: string, content: string) {
-    this.title = title;
-    this.content = content;
-  }
+// File: /src/tutorials/Tutorial.ts
+export class Tutorial {
+  constructor(public name: string, public steps: string[]) {}
 
   start(): void {
     // TODO: Implement tutorial start logic
   }
 
-  complete(): void {
-    // TODO: Implement tutorial completion logic
-  }
+  // TODO: Add more tutorial management methods
 }
-
-export default Tutorial;

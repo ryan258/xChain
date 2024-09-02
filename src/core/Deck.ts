@@ -1,23 +1,17 @@
-import Component from '../components/base/Component';
+// File: /src/core/Deck.ts
+import { Component } from '../components/base/Component';
 
-class Deck {
-  private components: Component[];
-
-  constructor() {
-    this.components = [];
-  }
+export class Deck {
+  private components: Component[] = [];
 
   addComponent(component: Component): void {
-    // TODO: Implement add logic
+    // TODO: Implement add component logic
   }
 
-  removeComponent(component: Component): void {
-    // TODO: Implement remove logic
+  removeComponent(component: Component): boolean {
+    // TODO: Implement remove component logic
+    return false;
   }
 
-  getComponents(): Component[] {
-    return this.components;
-  }
+  // TODO: Add more deck management methods
 }
-
-export default Deck;

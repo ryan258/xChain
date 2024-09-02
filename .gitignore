@@ -1,2 +1,32 @@
-node_modules
+# File: /.gitignore
+
+# Dependency directories
+node_modules/
+
+# Compiled output
+dist/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Environment variables
 .env
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test coverage output
+coverage/
+
+# Temporary files
+tmp/
+temp/

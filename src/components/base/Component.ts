@@ -1,13 +1,6 @@
-abstract class Component {
-  protected name: string;
-  protected cost: number;
+// File: /src/components/base/Component.ts
+export abstract class Component {
+  constructor(public name: string) {}
 
-  constructor(name: string, cost: number) {
-    this.name = name;
-    this.cost = cost;
-  }
-
-  abstract execute(): Promise<any>;
+  abstract execute(): void;
 }
-
-export default Component;
