@@ -1,0 +1,9 @@
+{
+  "aiService": {
+    "defaultModel": "llama3.1:latest",
+    "apiKey": "YOUR_API_KEY_HERE"
+  },
+  "logging": {
+    "level": "info"
+  }
+}
